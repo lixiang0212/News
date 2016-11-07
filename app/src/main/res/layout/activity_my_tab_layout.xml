@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zhuoxin.com.viewpagerdemo.my_tablayout.myViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:menuRigthWidth="50dp"
+    android:background="@color/colorWhite"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/menu"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorAqua"
+            ></LinearLayout>
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorYellow"
+            ></LinearLayout>
+    </LinearLayout>
+
+
+</zhuoxin.com.viewpagerdemo.my_tablayout.myViewGroup>

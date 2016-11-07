@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="zhuoxin.com.viewpagerdemo.activity.CollectActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/collect_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDeepSkyBlue"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的收藏"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            />
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/collect_bg111"
+        />
+    <ListView
+        android:layout_marginTop="1dp"
+        android:id="@+id/collect_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

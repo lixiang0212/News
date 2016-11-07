@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_icon_a"
+          android:title="分享"
+          android:icon="@drawable/toolbar_shared_selector"
+          app:showAsAction="ifRoom">
+    <menu>
+        <group>
+            <!--<item android:id="@+id/menu_icon_two"-->
+                <!--android:title="One"-->
+                <!--android:icon="@drawable/share_unselected"-->
+                <!--app:showAsAction="ifRoom"/>-->
+            <!--<item android:id="@+id/menu_icon_three"-->
+                <!--android:title="Two"-->
+                <!--android:icon="@drawable/share_unselected"-->
+                <!--app:showAsAction="ifRoom"/>-->
+            <!--<item android:id="@+id/menu_icon_four"-->
+                <!--android:title="Three"-->
+                <!--android:icon="@drawable/share_unselected"-->
+                <!--app:showAsAction="ifRoom"/>-->
+        </group>
+    </menu>
+    </item>
+</menu>

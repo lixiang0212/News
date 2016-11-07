@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lead_3"
+        android:id="@+id/pager_three_iv" />
+    <Button
+        android:id="@+id/pager_btn"
+        android:text="一起探索吧！"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/lead_btn_selector"
+        />
+</RelativeLayout>

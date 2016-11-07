@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item
+        android:title=""
+        >
+        <menu>
+            <group>
+                <item android:id="@+id/logo_menu_one"
+                    android:title="关于我"
+                    android:icon="@drawable/icon_aboutme"
+                    app:showAsAction="ifRoom"/>
+            </group>
+        </menu>
+        </item>
+    </group>
+    <item android:id="@+id/logo_menu_sheZhi"
+        android:title="相关设置"
+        android:icon="@drawable/icon_select"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/logo_menu_collect"
+        android:title="我的收藏"
+        android:icon="@drawable/star_defult"
+        app:showAsAction="ifRoom">
+        <!--<menu>-->
+            <!--<group>-->
+                <!--<item android:id="@+id/menu_icon_one"-->
+                    <!--android:title="Linear_V"-->
+                    <!--android:icon="@drawable/star_defult"-->
+                    <!--app:showAsAction="ifRoom"/>-->
+                <!--<item android:id="@+id/menu_icon_two"-->
+                    <!--android:title="Linear_H"-->
+                    <!--android:icon="@drawable/star_defult"-->
+                    <!--app:showAsAction="ifRoom"/>-->
+                <!--<item android:id="@+id/menu_icon_three"-->
+                    <!--android:title="Grid_V"-->
+                    <!--android:icon="@drawable/star_defult"-->
+                    <!--app:showAsAction="ifRoom"/>-->
+                <!--<item android:id="@+id/menu_icon_four"-->
+                    <!--android:title="Grid_H"-->
+                    <!--android:icon="@drawable/star_defult"-->
+                    <!--app:showAsAction="ifRoom"/>-->
+            <!--</group>-->
+        <!--</menu>-->
+    </item>
+</menu>

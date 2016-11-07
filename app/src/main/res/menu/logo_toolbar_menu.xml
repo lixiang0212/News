@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/logo_toolbar_menu"
+        android:title=""
+        android:icon="@drawable/toolbar_shared_selector"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>
